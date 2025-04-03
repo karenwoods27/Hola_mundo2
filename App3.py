@@ -1,2 +1,5 @@
 import streamlit as st
-st.text("Hola mundo 2")
+
+prompt = st.text_area("Escribe tu prompt")
+st.text(prompt)
+
